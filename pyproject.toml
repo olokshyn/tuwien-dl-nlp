@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "tuwien_dl_nlp"
+version = "0.1.0"
+description = ""
+authors = ["Oleh Lokshyn <olokshyn@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = ""}]
+
+[tool.poetry.dependencies]
+python = "~3.11"
+jupyter = "^1.0.0"
+gensim = "^4.3.2"
+scipy = "1.12"
+torch = "~2.2.2"
+datasets = "^2.19.0"
+scikit-learn = "^1.4.2"
+matplotlib = "^3.8.4"
+seaborn = "^0.13.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.0"
+mypy = "^1.10.0"
+
+[tool.black]
+line-length = 120
+
+[tool.flake8]
+max-line-length = 120
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
