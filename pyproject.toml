@@ -17,6 +17,9 @@ datasets = "^2.19.0"
 scikit-learn = "^1.4.2"
 matplotlib = "^3.8.4"
 seaborn = "^0.13.2"
+mwparserfromhell = "^0.6.6"
+transformers = "^4.40.1"
+accelerate = "^0.30.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.4.0"
