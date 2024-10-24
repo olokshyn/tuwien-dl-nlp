@@ -17,6 +17,8 @@ datasets = "^2.19.0"
 scikit-learn = "^1.4.2"
 matplotlib = "^3.8.4"
 seaborn = "^0.13.2"
+kagglehub = "^0.3.3"
+einops = "^0.8.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.4.0"
