@@ -19,7 +19,8 @@ matplotlib = "^3.8.4"
 seaborn = "^0.13.2"
 kagglehub = "^0.3.3"
 einops = "^0.8.0"
-transformers = {extras = ["torch"], version = "^4.46.2"}
+transformers = {extras = ["deepspeed"], version = "^4.46.2"}
+deepspeed = "^0.15.4"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.4.0"
